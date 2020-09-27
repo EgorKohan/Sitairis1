@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<cars xmlns="http://www.example.com/cars">
+
+    <car id="sadsadasd">
+        <name>a</name>
+        <cost>123</cost>
+        <type>zsad</type>
+    </car>
+
+</cars>

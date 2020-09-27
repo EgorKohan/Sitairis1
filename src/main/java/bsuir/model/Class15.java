@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public class Class15 extends AK9 implements Interface8, Interface10 {
 

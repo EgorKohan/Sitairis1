@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public abstract class AK11 implements Interface1, Interface5 {
 

@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public class Class14 extends AK11 implements Interface10 {
     @Override

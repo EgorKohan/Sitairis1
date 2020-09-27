@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public class Class6 implements Interface2 {
 

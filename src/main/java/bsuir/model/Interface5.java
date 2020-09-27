@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public interface Interface5 extends Interface1{
 

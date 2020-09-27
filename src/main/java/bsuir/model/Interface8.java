@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public interface Interface8 extends Interface2, Interface3 {
 

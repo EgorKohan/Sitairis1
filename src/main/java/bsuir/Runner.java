@@ -1,4 +1,6 @@
-import model.*;
+package bsuir;
+
+import bsuir.model.*;
 
 public class Runner {
 

@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public abstract class AK9 implements Interface3 {
 

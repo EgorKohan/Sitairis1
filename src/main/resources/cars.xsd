@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/cars"
+        xmlns:car="http://www.example.com/cars"
+        elementFormDefault="qualified">
+
+    <complexType name="car">
+        <sequence>
+            <element name="name" type="car:Word"/>
+            <element name="cost" type="double"/>
+            <element name="type" type="car:Word"/>
+        </sequence>
+        <attribute name="id" type="ID" use="required"/>
+    </complexType>
+
+    <simpleType name="Word">
+        <restriction base="string">
+            <pattern value="[a-zA-z]+"/>
+        </restriction>
+    </simpleType>
+
+    <element name="car" type="car:car"/>
+
+    <element name="cars">
+        <complexType>
+            <sequence>
+                <element ref="car:car" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>

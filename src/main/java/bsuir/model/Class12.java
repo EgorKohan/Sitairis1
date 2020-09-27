@@ -1,4 +1,4 @@
-package model;
+package bsuir.model;
 
 public class Class12 extends AK7 {
 
